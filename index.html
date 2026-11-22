@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Фотопортфолио — съёмка на Sony ZV-E10 II">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>Портфолио | Sony ZV-E10 II</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Василий Юшков</a>
+      <nav class="nav" id="nav">
+        <a href="#gallery" class="nav-link">Галерея</a>
+        <a href="#contact" class="nav-link">Контакты</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/Hero.jpg" alt="Главное фото" class="hero-image" id="heroImage">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-label">Sony ZV-E10 II</p>
+      <h1 class="hero-title">Фотография,<br>которая остаётся</h1>
+      <p class="hero-subtitle">Портфолио</p>
+      <a href="#gallery" class="btn btn-outline">Смотреть работы</a>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Галерея</h2>
+        <p class="section-desc">Избранные кадры, снятые на Sony ZV-E10 II</p>
+      </div>
+
+      <div class="gallery-filters" id="filters">
+        <button class="filter-btn active" data-filter="all">Все</button>
+        <button class="filter-btn" data-filter="portrait">Портрет</button>
+        <button class="filter-btn" data-filter="nature">Природа</button>
+        <button class="filter-btn" data-filter="street">Улица</button>
+        <button class="filter-btn" data-filter="other">Другое</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- 01 -->
+        <div class="gallery-item" data-category="nature" data-index="0">
+          <img src="images/01.jpg" alt="Фото 01" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">01</span>
+          </div>
+        </div>
+        <!-- 02 -->
+        <div class="gallery-item" data-category="portrait" data-index="1">
+          <img src="images/02.jpg" alt="Фото 02" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">02</span>
+          </div>
+        </div>
+        <!-- 03 -->
+        <div class="gallery-item" data-category="street" data-index="2">
+          <img src="images/03.jpg" alt="Фото 03" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">03</span>
+          </div>
+        </div>
+        <!-- 04 -->
+        <div class="gallery-item" data-category="nature" data-index="3">
+          <img src="images/04.jpg" alt="Фото 04" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">04</span>
+          </div>
+        </div>
+        <!-- 05 -->
+        <div class="gallery-item" data-category="portrait" data-index="4">
+          <img src="images/05.jpg" alt="Фото 05" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">05</span>
+          </div>
+        </div>
+        <!-- 06 -->
+        <div class="gallery-item" data-category="other" data-index="5">
+          <img src="images/06.jpg" alt="Фото 06" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">06</span>
+          </div>
+        </div>
+        <!-- 07 -->
+        <div class="gallery-item" data-category="street" data-index="6">
+          <img src="images/07.jpg" alt="Фото 07" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">07</span>
+          </div>
+        </div>
+        <!-- 08 -->
+        <div class="gallery-item" data-category="nature" data-index="7">
+          <img src="images/08.jpg" alt="Фото 08" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">08</span>
+          </div>
+        </div>
+        <!-- 09 -->
+        <div class="gallery-item" data-category="portrait" data-index="8">
+          <img src="images/09.jpg" alt="Фото 09" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">09</span>
+          </div>
+        </div>
+        <!-- 10 -->
+        <div class="gallery-item" data-category="other" data-index="9">
+          <img src="images/10.jpg" alt="Фото 10" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">10</span>
+          </div>
+        </div>
+        <!-- 11 -->
+        <div class="gallery-item" data-category="street" data-index="10">
+          <img src="images/11.jpg" alt="Фото 11" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">11</span>
+          </div>
+        </div>
+        <!-- 12 -->
+        <div class="gallery-item" data-category="nature" data-index="11">
+          <img src="images/12.jpg" alt="Фото 12" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">12</span>
+          </div>
+        </div>
+        <!-- 13 -->
+        <div class="gallery-item" data-category="portrait" data-index="12">
+          <img src="images/13.jpg" alt="Фото 13" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">13</span>
+          </div>
+        </div>
+        <!-- 14 -->
+        <div class="gallery-item" data-category="other" data-index="13">
+          <img src="images/14.jpg" alt="Фото 14" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">14</span>
+          </div>
+        </div>
+        <!-- 15 -->
+        <div class="gallery-item" data-category="street" data-index="14">
+          <img src="images/15.jpg" alt="Фото 15" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-title">15</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Контакты</h2>
+        <p class="section-desc">Напишите, если хотите обсудить съёмку или сотрудничество</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <h3>Instagram</h3>
+            <a href="https://instagram.com/" target="_blank" rel="noopener" class="contact-link">@your_instagram</a>
+          </div>
+          <div class="contact-item">
+            <h3>Email</h3>
+            <a href="mailto:hello@example.com" class="contact-link">hello@example.com</a>
+          </div>
+          <div class="contact-item">
+            <h3>Камера</h3>
+            <p class="contact-text">Sony ZV-E10 II</p>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="name" required placeholder="Как вас зовут?" autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com" autocomplete="email">
+          </div>
+          <div class="form-group">
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Расскажите о вашей идее..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Отправить</button>
+          <p class="form-note">После деплоя подключи Formspree — письма будут приходить на почту.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Василий Юшков · Снято на Sony ZV-E10 II</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр фото">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Закрыть">&times;</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Предыдущее">‹</button>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Следующее">›</button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightboxImage">
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+    <div class="lightbox-counter" id="lightboxCounter"></div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
